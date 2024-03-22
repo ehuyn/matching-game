@@ -7,6 +7,17 @@ import java.awt.*;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
+public class Main {
+    public static void main(String[] args) {
+        startScreen h = new startScreen();
+        h.setContentPane(h.mainPanel);
+        h.setTitle("Card Matching Game");
+        h.setSize(1200, 800);
+        h.setVisible(true);
+        h.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+}
+/*
 public class GUI implements ActionListener{
 
     private JFrame frame;
@@ -65,3 +76,4 @@ public class GUI implements ActionListener{
     }
 
 }
+*/

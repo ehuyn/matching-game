@@ -11,5 +11,5 @@ pushed empty Java Swing GUI program.
 copy/pasted the java GUI i copied from a tutorial into the Main.java file. deleted Java GUI file.
 - K
 
-create home screen branch 
+created starting menu screen branch 
 - E

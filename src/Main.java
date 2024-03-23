@@ -10,7 +10,7 @@ import java.awt.event.ActionEvent;
 public class Main {
     public static void main(String[] args) {
         startScreen h = new startScreen();
-        h.setContentPane(h.mainPanel);
+        h.setContentPane(h.getMainPanel());
         h.setTitle("Card Matching Game");
         h.setSize(1200, 800);
         h.setVisible(true);
